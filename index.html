@@ -3,196 +3,411 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Would You Rather? – Dare to Choose</title>
+    <meta name="description" content="Privacy Policy for Would You Rather? – Dare to Choose">
+    <title>Privacy Policy | Would You Rather? – Dare to Choose</title>
+
     <style>
-        :root {
-            --primary: #6236FF;
-            --secondary: #FF2D9B;
-            --bg-dark: #0D0020;
-            --card-bg: rgba(255, 255, 255, 0.05);
-            --border-color: rgba(255, 255, 255, 0.12);
-            --text-main: #FFFFFF;
-            --text-muted: #B3A4D0;
+        :root{
+            --primary:#6236FF;
+            --secondary:#FF2D9B;
+            --bg:#0D0020;
+            --card:rgba(255,255,255,.06);
+            --border:rgba(255,255,255,.12);
+            --text:#ffffff;
+            --muted:#c7bde6;
+            --heading:#F2C6FF;
         }
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
         }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background: var(--bg-dark);
-            background-image: radial-gradient(circle at 50% 0%, #3A0068 0%, #0D0020 70%);
-            color: var(--text-main);
-            line-height: 1.6;
-            padding: 40px 20px;
-            min-height: 100vh;
+        html{
+            scroll-behavior:smooth;
         }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: var(--card-bg);
-            backdrop-filter: blur(16px);
-            border: 1px solid var(--border-color);
-            border-radius: 24px;
-            padding: 40px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        body{
+            font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+            background:
+                radial-gradient(circle at top,#3d0075 0%,#17002d 40%,#0d0020 100%);
+            color:var(--text);
+            line-height:1.8;
+            padding:40px 20px;
         }
 
-        .header {
-            text-align: center;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 24px;
-            margin-bottom: 32px;
+        .container{
+            max-width:900px;
+            margin:auto;
+            background:var(--card);
+            backdrop-filter:blur(16px);
+            border:1px solid var(--border);
+            border-radius:24px;
+            padding:45px;
+            box-shadow:0 20px 50px rgba(0,0,0,.45);
         }
 
-        .badge {
-            display: inline-block;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: #fff;
-            padding: 6px 16px;
-            border-radius: 20px;
-            font-size: 13px;
-            font-weight: 700;
-            margin-bottom: 12px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+        .header{
+            text-align:center;
+            margin-bottom:40px;
+            border-bottom:1px solid var(--border);
+            padding-bottom:30px;
         }
 
-        h1 {
-            font-size: 32px;
-            font-weight: 800;
-            margin-bottom: 8px;
-            background: linear-gradient(135deg, #FFFFFF 0%, #E8B4FF 50%, #FF9EF5 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+        .badge{
+            display:inline-block;
+            background:linear-gradient(135deg,var(--primary),var(--secondary));
+            padding:7px 18px;
+            border-radius:50px;
+            font-size:13px;
+            font-weight:700;
+            letter-spacing:.8px;
+            text-transform:uppercase;
+            margin-bottom:18px;
         }
 
-        .update-date {
-            font-size: 14px;
-            color: var(--text-muted);
+        h1{
+            font-size:34px;
+            font-weight:800;
+            background:linear-gradient(90deg,#fff,#ffd2ff,#ff93d5);
+            -webkit-background-clip:text;
+            -webkit-text-fill-color:transparent;
+            margin-bottom:15px;
         }
 
-        section {
-            margin-bottom: 28px;
+        .date{
+            color:var(--muted);
+            font-size:15px;
+            line-height:1.7;
         }
 
-        h2 {
-            font-size: 20px;
-            color: #E8B4FF;
-            margin-bottom: 12px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
+        section{
+            margin-bottom:35px;
         }
 
-        p, ul {
-            color: var(--text-muted);
-            font-size: 15px;
-            margin-bottom: 12px;
+        h2{
+            color:var(--heading);
+            margin-bottom:15px;
+            font-size:22px;
         }
 
-        ul {
-            padding-left: 20px;
+        p{
+            color:var(--muted);
+            margin-bottom:15px;
+            font-size:16px;
         }
 
-        li {
-            margin-bottom: 8px;
+        ul{
+            padding-left:22px;
+            margin-bottom:15px;
         }
 
-        a {
-            color: #FF70C6;
-            text-decoration: none;
-            word-break: break-all;
+        li{
+            color:var(--muted);
+            margin-bottom:10px;
         }
 
-        a:hover {
-            text-decoration: underline;
+        strong{
+            color:#fff;
         }
 
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid var(--border-color);
-            color: var(--text-muted);
-            font-size: 13px;
+        a{
+            color:#ff8ed3;
+            font-weight:600;
+            text-decoration:none;
         }
 
-        @media (max-width: 600px) {
-            body { padding: 16px 12px; }
-            .container { padding: 24px 18px; border-radius: 16px; }
-            h1 { font-size: 24px; }
+        a:hover{
+            text-decoration:underline;
         }
+
+        .contact-box{
+            background:rgba(255,255,255,.05);
+            border:1px solid rgba(255,255,255,.1);
+            border-radius:16px;
+            padding:20px;
+            margin-top:15px;
+        }
+
+        .footer{
+            margin-top:50px;
+            padding-top:25px;
+            border-top:1px solid var(--border);
+            text-align:center;
+            color:var(--muted);
+            font-size:14px;
+        }
+
+        @media(max-width:700px){
+
+            body{
+                padding:18px;
+            }
+
+            .container{
+                padding:25px;
+                border-radius:18px;
+            }
+
+            h1{
+                font-size:26px;
+            }
+
+            h2{
+                font-size:20px;
+            }
+
+            p,li{
+                font-size:15px;
+            }
+
+        }
+
     </style>
+
 </head>
+
 <body>
 
-    <div class="container">
-        <div class="header">
-            <div class="badge">Privacy Policy</div>
-            <h1>Would You Rather? – Dare to Choose</h1>
-            <div class="update-date">Last Updated: July 24, 2026</div>
+<div class="container">
+
+    <div class="header">
+
+        <div class="badge">
+            Privacy Policy
         </div>
 
-        <section>
-            <h2>1. Overview</h2>
-            <p>Welcome to <strong>Would You Rather? – Dare to Choose</strong> ("the App"). We respect your privacy and are committed to protecting it. This Privacy Policy explains our policies and procedures regarding the collection, use, and disclosure of information when you use our mobile application.</p>
-        </section>
+        <h1>
+            Would You Rather? – Dare to Choose
+        </h1>
 
-        <section>
-            <h2>2. Information Collection & Local Storage</h2>
-            <p>The App does <strong>not</strong> collect personally identifiable information (such as your name, email address, phone number, or physical address).</p>
-            <p>All game data—including your game streaks, total questions answered, and unlocked question packs—is stored <strong>locally on your device</strong> using shared preferences and is never transmitted to our servers.</p>
-        </section>
-
-        <section>
-            <h2>3. Third-Party Advertising (Google AdMob)</h2>
-            <p>This App uses <strong>Google AdMob</strong> to display advertisements (banner, interstitial, and rewarded video ads) for monetization.</p>
-            <p>AdMob may collect and use certain data to provide personalized and non-personalized advertising, including:</p>
-            <ul>
-                <li>Device advertising identifiers (e.g., Android Advertising ID)</li>
-                <li>IP address and general location data</li>
-                <li>App interaction and usage metrics</li>
-                <li>Diagnostics and crash logs</li>
-            </ul>
-            <p>For detailed information on how Google collects and processes ad data, please review <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google AdMob Policies</a>.</p>
-        </section>
-
-        <section>
-            <h2>4. Children's Privacy (COPPA Compliance)</h2>
-            <p>Our App includes content tailored for different audiences. The <em>Kids Safe</em> pack is suitable for general audiences. However, packs such as <em>Spicy</em> and <em>Couples</em> contain romantic/flirtatious themes intended for teens and adults.</p>
-            <p>We do not knowingly collect personal information from children under the age of 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us so we can take appropriate measures.</p>
-        </section>
-
-        <section>
-            <h2>5. Opt-Out of Personalized Ads</h2>
-            <p>You can manage or opt out of personalized interest-based advertising directly on your Android device:</p>
-            <ul>
-                <li>Go to <strong>Settings</strong> > <strong>Google</strong> > <strong>Ads</strong></li>
-                <li>Tap <strong>Delete advertising ID</strong> or <strong>Opt out of Ads Personalization</strong></li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>6. Changes to This Privacy Policy</h2>
-            <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date. We encourage you to review this page periodically.</p>
-        </section>
-
-        <section>
-            <h2>7. Contact Us</h2>
-            <p>If you have any questions, feedback, or concerns regarding this Privacy Policy, please contact us at:</p>
-            <p>📧 Email: <a href="mailto:adityajadhav1607@gmail.com">adityajadhav1607@gmail.com</a></p>
-        </section>
-
-        <div class="footer">
-            &copy; 2026 Would You Rather? – Dare to Choose. All Rights Reserved.
+        <div class="date">
+            <strong>Effective Date:</strong> July 24, 2026<br>
+            <strong>Last Updated:</strong> July 24, 2026
         </div>
+
     </div>
+
+    <section>
+
+        <h2>1. Overview</h2>
+
+        <p>
+            Welcome to <strong>Would You Rather? – Dare to Choose</strong> ("the App").
+            We value your privacy and are committed to protecting it.
+            This Privacy Policy explains what information the App collects,
+            how it is used, and your rights regarding that information.
+        </p>
+
+        <p>
+            By using the App, you agree to the practices described in this Privacy Policy.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>2. Information Collection & Local Storage</h2>
+
+        <p>
+            The App does <strong>not</strong> collect personally identifiable information such as:
+        </p>
+
+        <ul>
+            <li>Name</li>
+            <li>Email address</li>
+            <li>Phone number</li>
+            <li>Postal address</li>
+            <li>Government identification</li>
+        </ul>
+
+        <p>
+            Game-related information including game streaks,
+            total questions answered,
+            unlocked question packs,
+            and user preferences is stored
+            <strong>locally on your device</strong> using Android Shared Preferences.
+        </p>
+
+        <p>
+            This information is never transmitted to our servers.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>3. Third-Party Advertising (Google AdMob)</h2>
+
+        <p>
+            The App uses <strong>Google AdMob</strong> to display advertisements,
+            including Banner Ads, Interstitial Ads, and Rewarded Ads.
+        </p>
+
+        <p>
+            Google AdMob may automatically collect certain information including:
+        </p>
+
+        <ul>
+            <li>Android Advertising ID</li>
+            <li>IP address</li>
+            <li>Approximate location derived from IP</li>
+            <li>Device information</li>
+            <li>App usage and interaction data</li>
+            <li>Diagnostics and crash reports</li>
+        </ul>
+
+        <p>
+            Learn more:
+        </p>
+
+        <ul>
+            <li>
+                <a href="https://policies.google.com/privacy" target="_blank">
+                    Google Privacy Policy
+                </a>
+            </li>
+
+            <li>
+                <a href="https://policies.google.com/technologies/ads" target="_blank">
+                    Google Advertising Technologies
+                </a>
+            </li>
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>4. Permissions</h2>
+
+        <p>
+            The App may request the following permissions:
+        </p>
+
+        <ul>
+            <li><strong>Internet</strong> – Required for loading advertisements.</li>
+            <li><strong>Network Access</strong> – Used to determine network connectivity for advertising services.</li>
+        </ul>
+
+        <p>
+            The App does not request access to your contacts,
+            photos,
+            microphone,
+            camera,
+            or location for its own functionality.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>5. Children's Privacy</h2>
+
+        <p>
+            The App is intended for a general audience.
+            Some question packs, such as
+            <strong>Couples</strong> and
+            <strong>Spicy</strong>,
+            contain romantic or mature-themed questions intended for older users.
+        </p>
+
+        <p>
+            We do not knowingly collect personal information from children under the age of 13.
+            If you believe that a child has provided personal information,
+            please contact us so that appropriate action can be taken.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>6. Data Security</h2>
+
+        <p>
+            Gameplay information is stored locally on your device.
+        </p>
+
+        <p>
+            We do not sell,
+            rent,
+            or share your personal information.
+        </p>
+
+        <p>
+            While we take reasonable steps to protect your information,
+            no method of electronic storage or transmission is completely secure.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>7. Personalized Advertising</h2>
+
+        <p>
+            You can manage or disable personalized advertisements by visiting:
+        </p>
+
+        <p>
+            <strong>Settings → Google → Ads</strong>
+        </p>
+
+        <ul>
+            <li>Delete Advertising ID</li>
+            <li>Opt out of Ads Personalization (if available)</li>
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>8. Changes to This Privacy Policy</h2>
+
+        <p>
+            We may update this Privacy Policy from time to time.
+            Any updates will be posted on this page with a revised
+            <strong>Last Updated</strong> date.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>9. Contact Us</h2>
+
+        <p>
+            If you have any questions regarding this Privacy Policy,
+            please contact us:
+        </p>
+
+        <div class="contact-box">
+
+            <p><strong>Developer</strong><br>
+            Aditya Jadhav</p>
+
+            <p>
+                📧
+                <a href="mailto:adityajadhav1607@gmail.com">
+                    adityajadhav1607@gmail.com
+                </a>
+            </p>
+
+        </div>
+
+    </section>
+
+    <div class="footer">
+
+        © 2026 Would You Rather? – Dare to Choose<br><br>
+
+        This Privacy Policy applies only to the mobile application
+        <strong>Would You Rather? – Dare to Choose</strong>.
+
+    </div>
+
+</div>
 
 </body>
 </html>
-<!-- Update -->
